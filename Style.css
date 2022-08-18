@@ -1,0 +1,231 @@
+
+.rights {
+    text-align: left;
+    font-size: 27px;
+    margin-left: 10px;
+    background-image: linear-gradient(to bottom, rgb(89, 0, 255), rgb(132, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 250px;
+    margin-bottom: -5px;
+}
+
+.learnmore {
+    background-image: linear-gradient(rgb(255, 145, 0), rgb(255, 0, 0));
+    align-content: center;
+    display: block;
+    margin-left: 20%;
+    margin-right: 50%;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    width: 125px;
+    text-align: center;
+    transform: skewY(11deg);
+}
+
+.learnmore:hover {
+    background-image: linear-gradient(rgb(255, 145, 0), rgb(255, 0, 0));
+    border-radius: 10px 90px 90px;
+    transition: 2s ease;
+    height: 50px;
+    transform: skewY(11deg);
+}
+
+.line1 {
+    margin-top: 50px;
+}
+
+.lines,.line1 {
+    background-image: linear-gradient(to bottom, rgb(141, 141, 141), rgb(199, 199, 199), rgb(141, 141, 141));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 80%;
+    margin-right: 20px;
+    transform: skewY(11deg);
+    font-size: 25px;
+    display: flex;
+}
+
+.abouttextnormal {
+    background-image: linear-gradient(to bottom, rgb(255, 251, 0), rgb(255, 0, 0), rgb(255, 251, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 5%;
+    margin-left: 80%;
+    transform: skewY(11deg);
+    font-size: 45px;
+}
+
+.about {
+    width: 100%;
+    height: 700px;
+    background-size: 100%;
+    box-shadow: 0px -10px 17px rgb(0 0 0 / 50%), 0px 10px 17px rgb(0 0 0 / 50%);
+    display: block;
+    margin-top: 150px;
+    transform: skewY(-11deg);
+}
+
+.copyiptext {
+    align-content: center;
+    display: block;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, rgb(234, 234, 234), rgb(166, 166, 166));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.copyip {
+    background-image: linear-gradient(rgb(255, 145, 0), rgb(255, 0, 0));
+    align-content: center;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.copyip:hover {
+    background-image: linear-gradient(rgb(255, 145, 0), rgb(255, 0, 0));
+    border-radius: 100px;
+    transition: 2s ease;
+    height: 50px;
+}
+
+.maintitle {
+    text-align: center;
+    font-size: 100px;
+    vertical-align: text-bottom;
+    padding: 160px;
+    background-image: linear-gradient(rgb(255, 196, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titlesecondary {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+    background-image: linear-gradient(to bottom, rgb(234, 234, 234), rgb(166, 166, 166));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line1secondary {
+    text-align: center;
+    font-size: 27px;
+    margin-left: 10px;
+    background-image: linear-gradient(to bottom, rgb(234, 234, 234), rgb(166, 166, 166));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+}
+
+.divunder {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, rgba(143, 15, 15, 0.658), rgb(23, 23, 23)), url(https://cdn.discordapp.com/attachments/984630666438279239/1009878417753255936/unknown.png);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 700px;
+    margin-top: -100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background: linear-gradient(to left, rgb(163 163 163) 20%, rgb(106 106 106));
+}
+
+.nav-links a {
+    background-image: linear-gradient(rgb(255, 145, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 21px;
+    padding: 5px 14px;
+    font-weight: bold;
+    text-shadow: black 1px 0px 0px;
+}
+
+.nav-links a:hover {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(100, 100, 100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 21px;
+}
+
+.navbarlogo {
+    margin-right: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 21px;
+}
+
+.menu li:hover {
+    background-image: linear-gradient(rgb(255, 145, 0), rgb(255, 0, 0));
+    border-radius: 10px 90px;
+    transition: 1s ease;
+}
+
+.menu li {
+    border-radius: 10px;
+}
+
+.services {
+    position: relative;
+}
+
+.dropdown {
+    background-color: rgb(63, 63, 63);padding: 1em 0;position: absolute;display: none;border-radius: 8px;top: 35px;
+}
+
+.dropdown li + li {
+    margin-top: 10px;
+}
+
+.dropdown li {
+    padding: 0.5em 1em;width: 8em;text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+.services:hover .dropdown {
+    display: block;
+}
+
+body {
+     margin: 0;padding: 0;box-sizing: border-box;
+    }
+
+ul {
+     margin: 0;padding: 0;box-sizing: border-box;
+    }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(88, 88, 88), rgb(0, 0, 0));
+}
+
+.pagetext {
+   color: white;
+   text-align: center;
+}
+
